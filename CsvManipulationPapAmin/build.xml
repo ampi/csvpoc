@@ -74,7 +74,7 @@
 				<attribute name="Main-Class" value="com.csv.Main" />
 			     <attribute name="Built-By" value="${user.name}"/>
 				 <!-- Information about the program itself -->
-				 <attribute name="Implementation-Vendor" value="Developer: Amin Piramoon."/>
+				 <attribute name="Implementation-Vendor" value="Developer, Amin Piramoon."/>
 				 <attribute name="Implementation-Title" value="CSV file manipulation exercise."/>
 				 <attribute name="Implementation-Version" value="Internal developer version 0.0.0.1"/>
 
