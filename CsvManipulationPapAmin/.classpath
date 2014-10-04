@@ -3,7 +3,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="test"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_05"/>
-	<classpathentry kind="lib" path="/home/amin/Development/EclipseWorkspace/CsvManipulationPapAmin/lib/commons-csv-1.0.jar"/>
-	<classpathentry kind="lib" path="/home/amin/Development/EclipseWorkspace/CsvManipulationPapAmin/lib/junit-4.11.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/ApacheCommonsCSV"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/junit-4.11"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
