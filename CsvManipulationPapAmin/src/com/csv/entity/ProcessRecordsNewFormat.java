@@ -22,14 +22,8 @@ public class ProcessRecordsNewFormat {
 	private Double errorStops;
 
 	public ProcessRecordsNewFormat() {
-//		setAverageDuration((int)(Math.random() * 100));
-//		setAverageFuel((int)(Math.random() * 100));
-//		setAverageHazards((int)(Math.random() * 100));
-//		setAverageRoundTrips((int)(Math.random() * 100));
-//		setAverageStops((int)(Math.random() * 100));
+
 	}
-	
-	
 
 	public ProcessRecordsNewFormat(Double averageDuration,
 			Double errorDuration, Double averageFuel, Double errorFuel,
@@ -49,8 +43,6 @@ public class ProcessRecordsNewFormat {
 		this.errorStops = errorStops;
 	}
 
-
-
 	/**
 	 * @return the processStep
 	 */
@@ -59,7 +51,8 @@ public class ProcessRecordsNewFormat {
 	}
 
 	/**
-	 * @param processStep the processStep to set
+	 * @param processStep
+	 *            the processStep to set
 	 */
 	public void setProcessStep(Double processStep) {
 		this.processStep = processStep;
@@ -73,7 +66,8 @@ public class ProcessRecordsNewFormat {
 	}
 
 	/**
-	 * @param averageDuration the averageDuration to set
+	 * @param averageDuration
+	 *            the averageDuration to set
 	 */
 	public void setAverageDuration(Double averageDuration) {
 		this.averageDuration = averageDuration;
@@ -87,7 +81,8 @@ public class ProcessRecordsNewFormat {
 	}
 
 	/**
-	 * @param errorDuration the errorDuration to set
+	 * @param errorDuration
+	 *            the errorDuration to set
 	 */
 	public void setErrorDuration(Double errorDuration) {
 		this.errorDuration = errorDuration;
@@ -101,7 +96,8 @@ public class ProcessRecordsNewFormat {
 	}
 
 	/**
-	 * @param averageFuel the averageFuel to set
+	 * @param averageFuel
+	 *            the averageFuel to set
 	 */
 	public void setAverageFuel(Double averageFuel) {
 		this.averageFuel = averageFuel;
@@ -115,7 +111,8 @@ public class ProcessRecordsNewFormat {
 	}
 
 	/**
-	 * @param errorFuel the errorFuel to set
+	 * @param errorFuel
+	 *            the errorFuel to set
 	 */
 	public void setErrorFuel(Double errorFuel) {
 		this.errorFuel = errorFuel;
@@ -129,7 +126,8 @@ public class ProcessRecordsNewFormat {
 	}
 
 	/**
-	 * @param averageRoundTrips the averageRoundTrips to set
+	 * @param averageRoundTrips
+	 *            the averageRoundTrips to set
 	 */
 	public void setAverageRoundTrips(Double averageRoundTrips) {
 		this.averageRoundTrips = averageRoundTrips;
@@ -143,7 +141,8 @@ public class ProcessRecordsNewFormat {
 	}
 
 	/**
-	 * @param errorRoundTrips the errorRoundTrips to set
+	 * @param errorRoundTrips
+	 *            the errorRoundTrips to set
 	 */
 	public void setErrorRoundTrips(Double errorRoundTrips) {
 		this.errorRoundTrips = errorRoundTrips;
@@ -157,7 +156,8 @@ public class ProcessRecordsNewFormat {
 	}
 
 	/**
-	 * @param averageHazards the averageHazards to set
+	 * @param averageHazards
+	 *            the averageHazards to set
 	 */
 	public void setAverageHazards(Double averageHazards) {
 		this.averageHazards = averageHazards;
@@ -171,7 +171,8 @@ public class ProcessRecordsNewFormat {
 	}
 
 	/**
-	 * @param erroHazards the erroHazards to set
+	 * @param erroHazards
+	 *            the erroHazards to set
 	 */
 	public void setErroHazards(Double erroHazards) {
 		this.erroHazards = erroHazards;
@@ -185,7 +186,8 @@ public class ProcessRecordsNewFormat {
 	}
 
 	/**
-	 * @param averageStops the averageStops to set
+	 * @param averageStops
+	 *            the averageStops to set
 	 */
 	public void setAverageStops(Double averageStops) {
 		this.averageStops = averageStops;
@@ -199,13 +201,16 @@ public class ProcessRecordsNewFormat {
 	}
 
 	/**
-	 * @param errorStops the errorStops to set
+	 * @param errorStops
+	 *            the errorStops to set
 	 */
 	public void setErrorStops(Double errorStops) {
 		this.errorStops = errorStops;
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see java.lang.Object#toString()
 	 */
 	@Override
@@ -219,5 +224,5 @@ public class ProcessRecordsNewFormat {
 				+ erroHazards + ", averageStops=" + averageStops
 				+ ", errorStops=" + errorStops + "]";
 	}
-	
+
 }
