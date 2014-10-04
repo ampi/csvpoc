@@ -67,16 +67,16 @@
 
 		<target name="makejar" depends="compile" description="Create a jar for the project">
 		<!-- The name of the jar file, and from where to include the files -->
-		<jar jarfile="papyruscsv.jar" basedir="${build.dir}/">
+		<jar jarfile="csvmanipulation.jar" basedir="${build.dir}/">
 			<!-- Include 3th party lib -->
 			<zipfileset src="lib/commons-csv-1.0.jar" />
 			<manifest>
-				<attribute name="Main-Class" value="com.csv.Main" />
+				<attribute name="Main-Class" value="com.csv.csv.Main" />
 				 <!-- Who is building this jar? -->
 			     <attribute name="Built-By" value="${user.name}"/>
 				 <!-- Information about the program itself -->
-				 <attribute name="Implementation-Vendor" value="Amin Piramoon"/>
-				 <attribute name="Implementation-Title" value="Papyrus exercise"/>
+				 <attribute name="Implementation-Vendor" value="Developer: Amin Piramoon."/>
+				 <attribute name="Implementation-Title" value="CSV file manipulation exercise."/>
 				 <attribute name="Implementation-Version" value="Internal developer version 0.0.0.1"/>
 
 			</manifest>
