@@ -72,7 +72,6 @@
 			<zipfileset src="lib/commons-csv-1.0.jar" />
 			<manifest>
 				<attribute name="Main-Class" value="com.csv.Main" />
-				 <!-- Who is building this jar? -->
 			     <attribute name="Built-By" value="${user.name}"/>
 				 <!-- Information about the program itself -->
 				 <attribute name="Implementation-Vendor" value="Developer: Amin Piramoon."/>
