@@ -15,7 +15,7 @@
 	<path id="test.classpath">
 		<!-- Make it depend inlucude "test.compile.classpath" -->
 		<path refid="test.compile.classpath" />
-		<pathelement path="${test.build}:lib/junit-4.11.jar" />
+		<pathelement path="${test.build}:lib/junit.jar" />
 	</path>
 	
 	<!-- The needed classpath when compiling -->
@@ -44,7 +44,7 @@
 	<!-- Make a clean tests build -->
 	<target name="compile-tests" depends="compile, clean-tests">
 		<mkdir dir="${test.build}" />
-		<javac includeantruntime="false" srcdir="${test.dir}" destdir="${test.build}" classpath="lib/junit-4.11.jar">
+		<javac includeantruntime="false" srcdir="${test.dir}" destdir="${test.build}" classpath="lib/junit.jar">
 			<classpath refid="test.compile.classpath" />
 		</javac>
 	</target>
